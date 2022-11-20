@@ -1,0 +1,109 @@
+/***** BASE STYLES *****/
+
+/*
+* {
+    outline: 1px dotted red;
+}
+*/
+
+body {
+    color: black;
+    font-family: "Sarala", "Source Sans Pro", sans-serif;
+    box-sizing: border-box;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+/***** HEADER *****/
+
+header {
+    background: url("../img/background-300px.png");
+    background-position: center top;
+    background-size: cover;
+    overflow: auto;
+}
+
+header h1,
+header h1 a {
+    color: black;
+    font-family: Lora, serif;
+    font-size: 30px;
+    padding: 15px 0 25px 25px;
+    text-decoration: none;
+}
+
+nav {
+    float: right; 
+    padding: 25px 25px;
+}
+nav ul li {
+    color: #7f7f7f;
+    display: inline-block;
+    font-size: 18px;
+    padding-left: 40px; 
+    text-transform: uppercase;
+}
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+header h2 {
+    clear: both;
+    font-family: Lora, serif;
+    font-size: 40px;
+    /*line-height: 64px;*/
+    padding: 20px 0 0 45px;
+    width: 1100px;
+}
+
+/***** PROJECTS MAIN *****/
+
+main {
+    background: #B4CC9C;
+}
+
+/***** FOOTER *****/
+
+footer {
+    background: url("../img/background-300px.png");
+    background-position: center bottom;
+    background-size: cover;
+    overflow: auto;
+}
+
+#contact .container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#contact a {
+    color: #c49075;
+    font-size: 28px;   
+    font-weight: normal;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+    background-color: #333333c0;
+}
+
+#contact ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
